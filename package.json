@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "start": "node ./bin/www",
-    "parcel": "parcel watch frontend/index.html"
+    "parcel": "parcel watch --no-source-maps frontend/index.html"
   },
   "dependencies": {
     "bootstrap": "^4.4.0",
